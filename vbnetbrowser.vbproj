@@ -14,6 +14,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2277.86" />
     <PackageReference Include="System.Text.Json" Version="8.0.0" />
+    <PackageReference Include="SSH.NET" Version="2024.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,10 +30,24 @@
     <Compile Include="src\Forms\SettingsForm.Designer.vb">
       <DependentUpon>SettingsForm.vb</DependentUpon>
     </Compile>
+    <Compile Include="src\Forms\FileManagerForm.vb" />
+    <Compile Include="src\Forms\ConnectionProfileForm.vb" />
     <Compile Include="src\Services\BookmarkService.vb" />
     <Compile Include="src\Services\ConfigService.vb" />
+    <Compile Include="src\Services\FileTransferService.vb" />
+    <Compile Include="src\Services\HttpFileService.vb" />
+    <Compile Include="src\Services\FtpFileService.vb" />
+    <Compile Include="src\Services\SftpFileService.vb" />
+    <Compile Include="src\Services\LocalFileService.vb" />
+    <Compile Include="src\Services\ConnectionManager.vb" />
+    <Compile Include="src\Services\SyntaxHighlighter.vb" />
+    <Compile Include="src\Services\EditorService.vb" />
     <Compile Include="src\Models\Bookmark.vb" />
     <Compile Include="src\Models\AppConfig.vb" />
+    <Compile Include="src\Models\ConnectionProfile.vb" />
+    <Compile Include="src\Models\FileItem.vb" />
+    <Compile Include="src\Models\OperationProgress.vb" />
+    <Compile Include="src\Models\SyntaxTheme.vb" />
     <Compile Include="src\Program.vb" />
   </ItemGroup>
 

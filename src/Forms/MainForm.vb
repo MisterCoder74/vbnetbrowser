@@ -384,6 +384,11 @@ Namespace vbnetbrowser.Forms
         Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
             txtAddress.Focus()
         End Sub
+
+        Private Sub fileManagerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles fileManagerToolStripMenuItem.Click
+            Dim fileManager As New FileManagerForm()
+            fileManager.ShowDialog()
+        End Sub
     End Class
 
     Public Class TabInfo

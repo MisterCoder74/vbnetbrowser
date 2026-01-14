@@ -1,0 +1,12 @@
+{
+  "Theme": "Dark",
+  "FontFamily": "Consolas",
+  "FontSize": 12,
+  "TabSize": 4,
+  "UseSpacesInsteadOfTabs": false,
+  "WordWrap": false,
+  "ShowLineNumbers": true,
+  "HighlightCurrentLine": true,
+  "AutoIndent": true,
+  "DetectEncoding": true
+}
